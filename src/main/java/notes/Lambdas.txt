@@ -1,0 +1,42 @@
+Lambdas:
+
+    * Functions (methods) without a name. (Anonymous function)
+    * Has all features of a regular function like Parameters, Body and Return Type.
+    * Lambdas are not tied to any class like a regular method.
+    * They can be assigned to a variable and passed around.
+
+        ************
+
+Syntax:
+    ( ) -> { }
+
+() - parameters
+-> - arrow
+{} - lambda body
+
+        ************
+
+Usages of Lambdas:
+
+    * Lambdas are mainly used to implement Functional Interfaces (SAM)
+    SAM: Single Abstract Method
+    * If an interface has only one abstract method, then they are categorized as Functional Interface.
+    * Some of existing Functional Interfaces that were existing before Java8 are "Runnable" and "Comparator".
+
+
+    @FunctionalInterface
+    public interface Comparator<T>{
+        int compare(T o1, T o2);
+    }
+
+    @FunctionalInterface
+    public interface Runnable{
+        public abstract void run();
+    }
+
+        ************
+
+What is Runnable?
+Runnable is an interface that is to be implemented by a class whose instances are intended to be executed by a thread.
+
+There are two ways to start a new Thread – Subclass Thread and implement Runnable.
