@@ -40,3 +40,43 @@ What is Runnable?
 Runnable is an interface that is to be implemented by a class whose instances are intended to be executed by a thread.
 
 There are two ways to start a new Thread – Subclass Thread and implement Runnable.
+
+What is Comparator?
+Compare two inputs of any type, and idea is to write our own logic on how the comparison must be done.
+
+        ************
+
+Functional Interfaces:
+    * Any interface that has exactly one abstract method.
+    * Annotated with @FunctionalInterface
+
+        ************
+
+New Functional Interfaces introduces as part of java 8:
+    1. Consumer
+    2. Predicate
+    3. Function
+    4. Supplier
+
+All 4 functional interfaces have their own extensions like: consumer - biConsumer, function - biFunction unaryOperator binaryOperator, predicate - biPredicate, supplier - biSupplier
+
+        ************
+
+What are abstract classes / interfaces?
+
+A class which is declared with abstract keyword.
+It can have abstract and non-abstract methods.
+
+Abstraction is the process of hiding the implementation details and showing only the functionality to the user.
+
+Abstraction lets us focus on what the object does, instead of how it does it.
+
+It cannot be instantiated.
+
+It can have constructors and static methods also.
+
+It can have final methods which will force the subclass not to change the body of the method.
+
+        ************
+
+
