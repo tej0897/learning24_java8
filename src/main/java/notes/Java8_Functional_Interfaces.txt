@@ -10,6 +10,8 @@ Consumer:
 
 Accept an input, perform some operation on that input.
     Example: Accept an input, perform Uppercase Operation on that input and print it.
+    IRL Example: Print list of student details based on a condition.
+                 Print just name and activities from list of details.
 
 How to use it?
 
