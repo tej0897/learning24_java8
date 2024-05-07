@@ -1,0 +1,31 @@
+The new Functional Interfaces introduced in Java 8 are
+    1. Consumer (bi-consumer)
+    2. Producer (bi-producer)
+    3. Predicate (bi-predicate)
+    4. Function (Unary, Binary, bi-function)
+
+                ************
+
+Consumer:
+
+Accept an input, perform some operation on that input.
+    Example: Accept an input, perform Uppercase Operation on that input and print it.
+
+How to use it?
+
+    Consumer<String> consumer = (s) -> System.out.println(s.toUpperCase());
+
+        now, with the reference variable consumer, we can use consumer.
+        Consumer has two methods:
+            1. accept
+            2. andThen
+
+        We use "accept" method to pass in the value.
+
+    consumer.accept("java8");   // output: JAVA8
+
+                ************
+
+
+
+
