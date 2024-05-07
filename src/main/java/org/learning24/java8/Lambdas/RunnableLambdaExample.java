@@ -20,6 +20,13 @@ public class RunnableLambdaExample {
         Runnable runnableLambda = () -> System.out.println("Inside Runnable 2");
         new Thread(runnableLambda).start();
 
+        /**
+         * Simplifying
+         */
+
+        new Thread (
+                () -> System.out.println("Inside Runnable 3")
+        ).start();
 
     }
 }
