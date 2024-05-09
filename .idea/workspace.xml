@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97a730cf-d65b-4d80-bad1-6c19d5aa8c3c" name="Changes" comment="consumer commit-2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learning24/java8/FunctionalInterfaces/BiConsumerExample.java" afterDir="false" />
+    <list default="true" id="97a730cf-d65b-4d80-bad1-6c19d5aa8c3c" name="Changes" comment="BiConsumer commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learning24/java8/FunctionalInterfaces/PredicateExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/notes/Java8_Functional_Interfaces.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notes/Java8_Functional_Interfaces.txt" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
       <recent name="C:\Users\2236516\OneDrive - Cognizant\Desktop\learning_24\java-8\tej0897\src\main\java\org\learning24\java8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BiConsumerExample">
+  <component name="RunManager" selected="Application.PredicateExample">
     <configuration name="BiConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learning24.java8.FunctionalInterfaces.BiConsumerExample" />
       <module name="tej0897" />
@@ -110,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImperativeVsDeclarativeExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.learning24.java8.ImperativeVsDeclarative.ImperativeVsDeclarativeExample2" />
+    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learning24.java8.FunctionalInterfaces.PredicateExample" />
       <module name="tej0897" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.learning24.java8.ImperativeVsDeclarative.*" />
+          <option name="PATTERN" value="org.learning24.java8.FunctionalInterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PredicateExample" />
         <item itemvalue="Application.BiConsumerExample" />
         <item itemvalue="Application.ConsumerExample" />
         <item itemvalue="Application.ComparatorLambdaExample" />
         <item itemvalue="Application.RunnableLambdaExample" />
-        <item itemvalue="Application.ImperativeVsDeclarativeExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715072422925</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="BiConsumer commit">
+      <created>1715231818596</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715231818596</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,6 +199,7 @@
     <MESSAGE value="Lambdas / functional Interface commit" />
     <MESSAGE value="consumer commit-1" />
     <MESSAGE value="consumer commit-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="consumer commit-2" />
+    <MESSAGE value="BiConsumer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="BiConsumer commit" />
   </component>
 </project>
