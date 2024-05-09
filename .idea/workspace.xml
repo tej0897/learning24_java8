@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97a730cf-d65b-4d80-bad1-6c19d5aa8c3c" name="Changes" comment="Predicate commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learning24/java8/FunctionalInterfaces/PredicateStudentExample.java" afterDir="false" />
+    <list default="true" id="97a730cf-d65b-4d80-bad1-6c19d5aa8c3c" name="Changes" comment="PredicateStudentExample commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learning24/java8/FunctionalInterfaces/ConsumerPlusPredicateExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/learning24/java8/data/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/learning24/java8/data/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <recent name="C:\Users\2236516\OneDrive - Cognizant\Desktop\learning_24\java-8\tej0897\src\main\java\org\learning24\java8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PredicateStudentExample">
+  <component name="RunManager" selected="Application.ConsumerPlusPredicateExample">
     <configuration name="BiConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learning24.java8.FunctionalInterfaces.BiConsumerExample" />
       <module name="tej0897" />
@@ -83,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparatorLambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.learning24.java8.Lambdas.ComparatorLambdaExample" />
+    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learning24.java8.FunctionalInterfaces.ConsumerExample" />
       <module name="tej0897" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.learning24.java8.Lambdas.*" />
+          <option name="PATTERN" value="org.learning24.java8.FunctionalInterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.learning24.java8.FunctionalInterfaces.ConsumerExample" />
+    <configuration name="ConsumerPlusPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learning24.java8.FunctionalInterfaces.ConsumerPlusPredicateExample" />
       <module name="tej0897" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerPlusPredicateExample" />
         <item itemvalue="Application.PredicateStudentExample" />
         <item itemvalue="Application.PredicateExample" />
         <item itemvalue="Application.BiConsumerExample" />
         <item itemvalue="Application.ConsumerExample" />
-        <item itemvalue="Application.ComparatorLambdaExample" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715234991065</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="PredicateStudentExample commit">
+      <created>1715241762424</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715241762424</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,6 +215,7 @@
     <MESSAGE value="consumer commit-2" />
     <MESSAGE value="BiConsumer commit" />
     <MESSAGE value="Predicate commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Predicate commit" />
+    <MESSAGE value="PredicateStudentExample commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="PredicateStudentExample commit" />
   </component>
 </project>
