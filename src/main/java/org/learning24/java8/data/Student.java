@@ -88,7 +88,7 @@ public class Student {
 
     List<String> activities = new ArrayList<>();
 
-    public  List<String> getActivities() {
+    public List<String> getActivities() {
         return this.activities;
     }
 
