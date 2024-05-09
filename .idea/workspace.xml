@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97a730cf-d65b-4d80-bad1-6c19d5aa8c3c" name="Changes" comment="consumer commit-1">
+    <list default="true" id="97a730cf-d65b-4d80-bad1-6c19d5aa8c3c" name="Changes" comment="consumer commit-2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learning24/java8/FunctionalInterfaces/BiConsumerExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/notes/Java8_Functional_Interfaces.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notes/Java8_Functional_Interfaces.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/learning24/java8/FunctionalInterfaces/ConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/learning24/java8/FunctionalInterfaces/ConsumerExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/2236516/OneDrive - Cognizant/Desktop/learning_24/leetcode-problems&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -69,7 +70,20 @@
       <recent name="C:\Users\2236516\OneDrive - Cognizant\Desktop\learning_24\java-8\tej0897\src\main\java\org\learning24\java8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsumerExample">
+  <component name="RunManager" selected="Application.BiConsumerExample">
+    <configuration name="BiConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learning24.java8.FunctionalInterfaces.BiConsumerExample" />
+      <module name="tej0897" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.learning24.java8.FunctionalInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComparatorLambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learning24.java8.Lambdas.ComparatorLambdaExample" />
       <module name="tej0897" />
@@ -89,19 +103,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.learning24.java8.FunctionalInterfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImperativeVsDeclarativeExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.learning24.java8.ImperativeVsDeclarative.ImperativeVsDeclarativeExample1" />
-      <module name="tej0897" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.learning24.java8.ImperativeVsDeclarative.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BiConsumerExample" />
         <item itemvalue="Application.ConsumerExample" />
         <item itemvalue="Application.ComparatorLambdaExample" />
         <item itemvalue="Application.RunnableLambdaExample" />
         <item itemvalue="Application.ImperativeVsDeclarativeExample2" />
-        <item itemvalue="Application.ImperativeVsDeclarativeExample1" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715070787829</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="consumer commit-2">
+      <created>1715072422925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715072422925</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -183,6 +191,7 @@
     <MESSAGE value="Lambdas commit" />
     <MESSAGE value="Lambdas / functional Interface commit" />
     <MESSAGE value="consumer commit-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="consumer commit-1" />
+    <MESSAGE value="consumer commit-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="consumer commit-2" />
   </component>
 </project>

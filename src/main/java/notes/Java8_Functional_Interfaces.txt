@@ -28,6 +28,11 @@ How to use it?
 
                 ************
 
+BiConsumer Interface:
+
+Accepts two input, performs operation on them.
+
+
 
 
 
