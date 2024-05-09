@@ -28,6 +28,20 @@ How to use it?
 
                 ************
 
+BiConsumer Interface:
+
+Accepts two input, performs operation on them.
+
+                ************
+
+Predicate Interface:
+
+    Takes an Input, performs some operation on it and returns a Boolean value.
+
+    It supports operations like "and, or, negate, isEqual".
+
+    Here, in place of accept, we use "test" for passing input.
+
 
 
 
